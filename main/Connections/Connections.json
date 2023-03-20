@@ -1,12 +1,15 @@
 {
-  "ca123130-4d44-403b-8c85-4cc65282a013": {
+  "b72dfafa-a50c-48b7-8f30-04b8799f5054": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
     "connectionRef": {
+      "apiTier": "Standard",
       "displayName": "SharePoint",
       "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3-99-la-only-no-gov/1.0.1622.3206/sharepointonline/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
     },
     "datasets": {
       "https://unaledu.sharepoint.com/sites/PruebasProyecto": {
@@ -21,11 +24,11 @@
       }
     },
     "dataSources": [
-      "Proyecto",
-      "parametros"
+      "parametros",
+      "Proyecto"
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "ca123130-4d44-403b-8c85-4cc65282a013"
+    "id": "b72dfafa-a50c-48b7-8f30-04b8799f5054"
   }
 }

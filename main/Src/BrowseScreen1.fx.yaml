@@ -205,104 +205,90 @@
         Size: =24
         Text: ="Botón"
         Width: =280
-        X: =628
-        Y: =339
+        X: =649
+        Y: =424
         ZIndex: =17
 
     PartialCircle1_2 As partialCircle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=10,0,valor=0,80,8))%)
-        Height: =37
-        Width: =95
-        X: =573
-        Y: =427
+        X: =569
+        Y: =528
         ZIndex: =41
 
     Rectangle1_24 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=10,0,valor=0,80,8))%)
-        Height: =36
-        Width: =55
+        Width: =58
         X: =611
-        Y: =427
+        Y: =528
         ZIndex: =42
 
     Rectangle1_25 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=20,0,valor=0,80,16))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =659
-        Y: =427
+        Y: =528
         ZIndex: =43
 
     Rectangle1_26 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=30,0,valor=0,80,24))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =704
-        Y: =427
+        Y: =528
         ZIndex: =44
 
     Circle2_2 As circle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=100,0,valor=0,80,80))%)
-        Height: =36
-        Width: =95
-        X: =1015
-        Y: =427
+        X: =1012
+        Y: =528
         ZIndex: =46
 
     Rectangle1_28 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=40,0,valor=0,80,32))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =754
-        Y: =427
+        Y: =528
         ZIndex: =47
 
     Rectangle1_29 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=50,0,valor=0,80,40))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =799
-        Y: =427
+        Y: =528
         ZIndex: =48
 
     Rectangle1_30 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1), (If(valor>=60,0,valor=0,80,48))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =839
-        Y: =427
+        Y: =528
         ZIndex: =49
 
     Rectangle1_31 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1), (If(valor>=70,0,valor=0,80,56))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =879
-        Y: =427
+        Y: =528
         ZIndex: =50
 
     Rectangle1_32 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1), (If(valor>=80,0,valor=0,80,64))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =919
-        Y: =427
+        Y: =528
         ZIndex: =51
 
     Rectangle1_33 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=90,0,valor=0,80,72))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =964
-        Y: =427
+        Y: =528
         ZIndex: =52
 
     Rectangle1_34 As rectangle:
         Fill: =ColorFade(RGBA(56, 96, 178, 1),  (If(valor>=100,0,valor=0,80,80))%)
-        Height: =36
-        Width: =47
+        Width: =50
         X: =1004
-        Y: =427
+        Y: =528
         ZIndex: =53
 
     TextSearchBox2 As text:
@@ -348,12 +334,12 @@
         ZIndex: =56
 
     Label1 As label:
-        Height: =25
+        Height: =70
         Size: =21
         Text: =
-        Width: =121
-        X: =765
-        Y: =442
+        Width: =128
+        X: =761
+        Y: =543
         ZIndex: =57
 
     Label2 As label:
@@ -383,70 +369,7 @@
         Size: =24
         Text: ="Botón"
         Width: =280
-        X: =5
-        Y: =479
+        X: =108
+        Y: =513
         ZIndex: =60
-
-    Icon1 As icon.DockRight:
-        Icon: =Icon.DockRight
-        X: =862
-        Y: =467
-        ZIndex: =61
-
-    Button4 As button:
-        Height: =70
-        Size: =24
-        Text: ="Botón"
-        Width: =280
-        X: =293
-        Y: =479
-        ZIndex: =62
-
-    Button4_1 As button:
-        Height: =70
-        Size: =24
-        Text: ="Botón"
-        Width: =280
-        X: =577
-        Y: =479
-        ZIndex: =63
-
-    Button4_2 As button:
-        Height: =70
-        Size: =24
-        Text: ="Botón"
-        Width: =280
-        X: =856
-        Y: =570
-        ZIndex: =64
-
-    Button3_1 As button:
-        Height: =70
-        OnSelect: |-
-            =Navigate(Button1,ScreenTransition.None);
-            Select(Button1)
-        Size: =24
-        Text: ="Botón"
-        Width: =280
-        X: =5
-        Y: =570
-        ZIndex: =65
-
-    Button4_3 As button:
-        Height: =70
-        Size: =24
-        Text: ="Botón"
-        Width: =280
-        X: =293
-        Y: =570
-        ZIndex: =66
-
-    Button4_4 As button:
-        Height: =70
-        Size: =24
-        Text: ="Botón"
-        Width: =280
-        X: =577
-        Y: =570
-        ZIndex: =67
 
