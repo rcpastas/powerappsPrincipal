@@ -102,11 +102,11 @@
     "FileID": "a3fa8584-3497-4b54-8af0-cb0fe4916344",
     "Id": "a3fa8584-3497-4b54-8af0-cb0fe4916344",
     "InstrumentationKey": "",
-    "Name": "Modelo operativo",
+    "Name": "Modelo operativo Prueba",
     "OriginatingVersion": "1.327"
   },
   "PublishInfo": {
-    "AppName": "Modelo operativo",
+    "AppName": "Modelo operativo Prueba",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
