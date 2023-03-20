@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2022-12-19T18:06:01.2250000Z",
+      "LastChangedTimeString": "2023-03-17T19:26:13.6700000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -39,7 +39,7 @@
       "Modified": "Modificado",
       "Title": "Título"
     },
-    "DatasetName": "https://unaledu.sharepoint.com/sites/rcpastasc",
+    "DatasetName": "https://unaledu.sharepoint.com/sites/PruebasProyecto",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
