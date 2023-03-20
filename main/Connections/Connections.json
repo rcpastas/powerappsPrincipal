@@ -1,5 +1,5 @@
 {
-  "ca123130-4d44-403b-8c85-4cc65282a013": {
+  "e2138ca7-d299-4111-80bb-fe1763518816": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -9,23 +9,23 @@
       "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
     },
     "datasets": {
-      "https://unaledu.sharepoint.com/sites/PruebasProyecto": {
+      "https://unaledu.sharepoint.com/sites/rcpastasc": {
         "dataSources": {
           "parametros": {
-            "tableName": "290b9513-2d15-484c-b5e0-2b5989e87154"
+            "tableName": "336da5b3-5e25-4603-8d19-9363d53679d8"
           },
           "Proyecto": {
-            "tableName": "25545931-8a86-4219-a75f-0811e674e95f"
+            "tableName": "599e3ebb-560e-4ef2-a132-8685b1668c93"
           }
         }
       }
     },
     "dataSources": [
-      "Proyecto",
-      "parametros"
+      "parametros",
+      "Proyecto"
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "ca123130-4d44-403b-8c85-4cc65282a013"
+    "id": "e2138ca7-d299-4111-80bb-fe1763518816"
   }
 }
