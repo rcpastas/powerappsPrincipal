@@ -186,10 +186,10 @@ Screen1 As screen:
                 DisplayFields: =["DisplayName","Email","Picture"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: =Choices([@Proyecto].responsable_x0020_ia)
+                Items: =Choices([@Proyecto].'responsable ia')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
-                SearchItems: =Choices(Proyecto.responsable_x0020_ia,DataCardValue8.SearchText)
+                SearchItems: =Choices(Proyecto.'responsable ia',DataCardValue8.SearchText)
                 SelectMultiple: =false
                 Size: =21
                 Template: =ListItemTemplate.Person
