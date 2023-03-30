@@ -1,2 +1,23 @@
 Screen2 As screen:
+    OnVisible: =Select(Button7)
+
+    Button7 As button:
+        Height: =70
+        OnSelect: =Notify("me presionaron cundo entro a la pantalla")
+        Size: =24
+        Text: ="Botón"
+        Width: =280
+        X: =704
+        Y: =244
+        ZIndex: =1
+
+    Button8 As button:
+        Height: =70
+        OnSelect: =Navigate(Screen3)
+        Size: =24
+        Text: ="Botón"
+        Width: =280
+        X: =164
+        Y: =244
+        ZIndex: =2
 

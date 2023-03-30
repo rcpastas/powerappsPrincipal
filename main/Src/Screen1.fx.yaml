@@ -1,5 +1,6 @@
 Screen1 As screen:
     BackgroundImage: =images
+    OnVisible: =Select(Button5)
 
     Form2 As form:
         DataSource: =Proyecto
@@ -371,7 +372,10 @@ Screen1 As screen:
 
     Button5 As button:
         Height: =70
-        OnSelect: =Navigate(BrowseScreen1)
+        OnSelect: |-
+            =
+            
+            Navigate(BrowseScreen1)
         Size: =24
         Text: ="Botón"
         Width: =280

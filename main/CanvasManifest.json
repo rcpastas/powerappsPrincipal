@@ -100,11 +100,11 @@
     "FileID": "a3fa8584-3497-4b54-8af0-cb0fe4916344",
     "Id": "a3fa8584-3497-4b54-8af0-cb0fe4916344",
     "InstrumentationKey": "",
-    "Name": "Modelo operativo Prueba",
+    "Name": "Modelo operativo",
     "OriginatingVersion": "1.327"
   },
   "PublishInfo": {
-    "AppName": "Modelo operativo Prueba",
+    "AppName": "Modelo operativo",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -116,10 +116,10 @@
   },
   "ScreenOrder": [
     "Screen3",
+    "Screen2",
     "Screen1",
     "BrowseScreen1",
     "DetailScreen1",
-    "EditScreen1",
-    "Screen2"
+    "EditScreen1"
   ]
 }

@@ -71,7 +71,7 @@ Screen3 As screen:
 
     Button6 As button:
         Height: =70
-        OnSelect: =Navigate(BrowseScreen1)
+        OnSelect: =Navigate(Screen2)
         Size: =24
         Text: ="Botón"
         Width: =280
